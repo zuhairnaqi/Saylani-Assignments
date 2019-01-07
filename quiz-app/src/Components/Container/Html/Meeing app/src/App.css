@@ -1,0 +1,220 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+header{
+  padding: 0px;
+  line-height: 100px;
+  color: white;
+  background-color: #282c34;
+}
+#header-h1{ 
+  text-shadow: yellow 2px 2px 2px;
+  font-family: 'Times New Roman', Times, serif;
+  display: inline;
+}
+header>span{
+  float: right;
+  margin-right:5px;
+  font-weight: 500;
+  font-size: larger;
+  text-shadow: skyblue 2px 2px 2px ;
+}
+header>span>img{
+  width: 40px;
+}
+.pic-categories>img{
+  padding-left: 3.5%;
+}
+
+#img-caption>p{
+  font-style: oblique;
+  font-size: large;
+  font-weight: 700;
+  display: inline;
+}
+#coffe-text{
+  padding-left:12%; 
+  padding-right: 12%;
+}
+.juice-cocktail{
+  padding-left:12%; 
+  padding-right: 12%;
+}
+
+#map{
+  margin-top:-20px;
+}
+.Card{
+  /* width: 50%; */
+} 
+#cancel-check{
+  margin-top: -28px;
+}
+#cancel-btn{
+  width: 30px;
+  margin-left: -10px;
+
+}
+#check-btn{
+  width: 30px;
+  margin-left: 60px;
+}
+#card-name{
+  margin-top: -15px;
+  text-align: center;
+}
+#card-img1{
+  margin-left:-5px;
+}
+#card-img2{
+  margin-left:-5px;
+}
+#card-img3{
+  margin-left:-5px;
+}
+/* .card-names{
+  text-align: center;
+}
+.Thumbnail{
+  height: 100vh;
+}
+.thumbnail>img {
+  /* display: block; */
+ /* max-width: 80%;
+  height: auto;
+} */
+.car-col{
+  /* width:50%; */
+}
+
+
+    /* Font styling for venues */
+
+.location-venue{
+  color: #719de2;
+  font-weight: 550;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+}
+.location-address{
+  color: #606772;
+  font-family: 'Times New Roman', Times, serif;
+}
+#list-div{
+  color: white;
+  background-color: rgb(87, 145, 199);
+  margin: 5px 15px 8px 15px;
+  border: 1px solid rgb(87, 145, 199);
+  border-bottom: 10px;
+  height: 100px;
+  cursor: pointer;
+  box-shadow: 02px 4px 4px rgb(56, 51, 51);
+}
+/* #list-div > p {
+  margin: 0%;
+   margin-left: 20%;
+  margin-top: -30px;
+} */
+#list-div > h3{
+  display: inline;
+  margin-left: 6%;
+  margin-top: -20% !important;
+  margin-bottom: 10%;
+  font-family: 'Times New Roman', Times, serif;
+  /* margin-bottom: 10px; */
+}
+#list-div > span {
+  margin-left: 20%;
+  margin-top: -31px;
+  display: block;
+}
+
+#list-div > p{
+  /* margin: 0% !important; */
+  margin-left: 13%;
+  margin-top: 03.5% ;
+  /* margin-bottom: -100px !important; */
+  margin-right: 50px;
+  display:block; 
+  float: right;
+  margin-left: 50px;
+}
+                  
+#list-time{
+  display:  inline !important;
+  float: none !important;
+  margin-left: 20% !important;
+  margin-right: 0% !important;
+}
+
+
+
+
+/************POPUP CSS***********/
+.modal {
+  font-size: 12px;
+  line-height:100px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}

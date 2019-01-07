@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 60px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+strong,#float-heading{
+  float: right;
+  font-weight: 700;
+  cursor: pointer;
+}
+h1 {
+	margin: 1em 0 0.5em 0;
+	color: #3d2f2f;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;
+}
+h2{
+  margin: 1em 0 0.5em 0;
+	font-weight: normal;
+  font-family: 'Ultra', sans-serif;   
+  font-size: 28px;
+	line-height: 35px;
+	text-shadow: 0 2px white, 0 3px #777;
+}
+a{
+  color:blue;
+  font-style: italic;
+  cursor: pointer;
+}
+fieldset>label{
+  color: white;
+  text-shadow: 3px 3px 6px #000000;
+  font-weight: 600;
+  margin-left: 10%;
+}
+fieldset{
+  margin-left: 10%;
+  margin-right:10%;
+  background-color: rgb(111, 132, 135)
+}
+legend{
+  text-shadow: 3px 0 3px wheat;
+  font-weight: 800;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email]{
+  width: 40%;
+  /* padding: 12px 20px; */
+  margin-right: 15%;
+  display: inline;
+  float: right;
+  border: 1px solid #ccc;
+  border-radius:5px;
+  /* box-sizing: border-box; */
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+#main-heading{
+  display:inline;
+  color: blue;
+  font-family: courier;
+  font-size: 300%;
+}
+#categories{
+  margin: 0 auto;
+  margin-left:10%;
+  margin-right:10%;
+}
+#back-btn{
+  background-color: rgb(29, 96, 128);
+  margin-left: 5px;
+}
+#key-btn,fieldset>button{
+  margin-left: 45%;
+}
