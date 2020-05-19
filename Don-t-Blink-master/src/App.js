@@ -209,7 +209,7 @@ class App extends React.Component {
           </div> */}
           <MDBContainer>
             <MDBRow>
-              <MDBCol>
+                <MDBCol>
                 <InputComponent />
               </MDBCol>
             </MDBRow>
